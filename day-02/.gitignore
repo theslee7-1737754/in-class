@@ -4,4 +4,8 @@ package-lock.json
 
 # ignore OS generated files
 .DS_Store
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> 408dc8852d8105398ec23f33cf31ea279ea44f91
