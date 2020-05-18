@@ -1,4 +1,4 @@
-# Activity-3
+# React Activity
 
 In this activity, we'll walk through **all** of the steps of building an interactive visualization in React. Follow the steps below to build an interactive bar chart of Olympic Medalists.
 
