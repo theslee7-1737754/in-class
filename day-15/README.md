@@ -19,9 +19,11 @@ In this activity, we'll walk through **all** of the steps of building an interac
 
 8. Now that we have the data to graph, we'll need to install and import our charting library. Begin by install (and saving) the `recharts` package using `npm`. Then, in your `App.js` file, import these named exports from the library: BarChart, XAxis, YAxis, CartesianGrid, Tooltip, Bar.
 
-9. Using the [documentation](http://recharts.org/#/en-US/) as a reference, make a bar chart on your page!
+9. Run ```npx react-codemod rename-unsafe-lifecycles``` to fix issues with this codebase
 
-10. To make the page interactive, we'll add a `ButtonGroup` for your user to select the `xVariable`. To do this, we'll use `reactstrap` to have bootstrap styled components ([docs](https://reactstrap.github.io/components/button-group/)). We'll need to install both `bootstrap` and `reactstrap` using npm, then import this content:
+10. Using the [documentation](http://recharts.org/#/en-US/) as a reference, make a bar chart on your page!
+
+11. To make the page interactive, we'll add a `ButtonGroup` for your user to select the `xVariable`. To do this, we'll use `reactstrap` to have bootstrap styled components ([docs](https://reactstrap.github.io/components/button-group/)). We'll need to install both `bootstrap` and `reactstrap` using npm, then import this content:
 
 ```javascript
 // Get bootstrap css
@@ -32,4 +34,4 @@ import { Button, ButtonGroup } from 'reactstrap';
 
 ```
 
-11. To create your `Button` elements in your `ButtonGroup`, I suggest you iterate through an array of options (i.e., `['Sport', 'Year', 'CountryName']`). Then, return a `<Button` element, that (when clicked) updates the state of `xVariable` (you should now write a function that does that as well).
+12. To create your `Button` elements in your `ButtonGroup`, I suggest you iterate through an array of options (i.e., `['Sport', 'Year', 'CountryName']`). Then, return a `<Button` element, that (when clicked) updates the state of `xVariable` (you should now write a function that does that as well).
